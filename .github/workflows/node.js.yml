@@ -29,6 +29,4 @@ jobs:
       
     - name: Test 
       run: make test-coverage
-      with:
-        debug: true
-    
+  
