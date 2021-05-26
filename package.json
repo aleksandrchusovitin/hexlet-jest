@@ -7,10 +7,17 @@
     "transform": {},
     "testRunner": "jest-circus/runner"
   },
+  "bin": {
+    "hexlet": "bin/nodejs-package.js"
+  },
   "description": "learning jest module",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest"
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandrchusovitin/hexlet-jest.git"
   },
   "author": "Aleksandr Chusovitin",
   "license": "ISC",
