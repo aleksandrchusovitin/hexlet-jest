@@ -7,11 +7,10 @@
     "transform": {},
     "testRunner": "jest-circus/runner"
   },
-  "bin": {
-    "hexlet": "bin/nodejs-package.js"
+  "engines": {
+    "node": ">=14"
   },
   "description": "learning jest module",
-  "main": "index.js",
   "scripts": {
     "test": "npx jest --bail"
   },
@@ -21,6 +20,10 @@
   },
   "author": "Aleksandr Chusovitin",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandrchusovitin/hexlet-jest/issues"
+  },
+  "homepage": "https://github.com/aleksandrchusovitin/hexlet-jest#readme",
   "devDependencies": {
     "@jest/globals": "^26.6.2",
     "eslint": "^7.27.0",
