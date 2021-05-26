@@ -4,7 +4,8 @@
   "type": "module",
   "jest": {
     "testEnvironment": "node",
-    "transform": {}
+    "transform": {},
+    "testRunner": "jest-circus/runner"
   },
   "description": "learning jest module",
   "main": "index.js",
@@ -14,10 +15,17 @@
   "author": "Aleksandr Chusovitin",
   "license": "ISC",
   "devDependencies": {
+    "@jest/globals": "^26.6.2",
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
     "jest": "^26.6.3",
+    "jest-circus": "^27.0.1",
+    "jest-cli": "^26.6.3",
     "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "debug": "^4.3.1"
   }
 }
